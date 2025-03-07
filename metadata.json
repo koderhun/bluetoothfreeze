@@ -13,7 +13,7 @@
     "Name": "BluetoothFreeze",
     "Description": "Timer for keeping bluetooth on. A quiet sound is played at a specified interval. The default interval is 10 min.",
     "Id": "com.github.koderhun.bluetoothfreeze",
-    "Icon": "dialog-scripts",
+    "Icon": "lines-connector",
     "Version": 0.1,
     "License": "GPL-3.0-or-later",
     "BugReportUrl": "",
