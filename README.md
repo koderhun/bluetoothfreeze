@@ -1,5 +1,6 @@
-Here's the translated response in English:
+[Russian README.md](README_ru.md)
 
+Here's the translated response in English:
 # BluetoothFreeze
 
 BluetoothFreeze is a KDE 6 plugin that plays a silent sound at a specified interval to prevent Bluetooth devices from falling asleep. The project is well-organized, with clear separation of code, configuration, and user interface components.
@@ -40,9 +41,3 @@ The plugin settings can be configured to specify the desired interval and sound 
 ## License
 
 The project is licensed under the [MIT License](LICENSE.md).
-
----
-
-[Russian README.md](README_ru.md)
-
-Please replace the placeholders with the actual paths to the images in your project's `screenshots` directory.
