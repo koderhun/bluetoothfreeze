@@ -30,6 +30,10 @@ PlasmoidItem {
   readonly property string minutes: Plasmoid.configuration.minutes;
   property bool toggleStatus: false
 
+  Component.onCompleted: {
+    executable.execStart();
+  }
+
   DND.DropArea {
     id: dropArea
     anchors.fill: parent
