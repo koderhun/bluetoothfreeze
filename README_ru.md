@@ -41,3 +41,6 @@ BluetoothFreeze — это плагин для KDE 6, который воспр�
 
 Проект лицензирован на условиях [GNU GPL License](LICENSE.md).
 
+## Авторы
+- **Developer:** Ramil
+- **Icon Design:** [Alina](https://www.behance.net/balapayeva)
