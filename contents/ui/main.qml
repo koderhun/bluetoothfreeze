@@ -25,10 +25,16 @@ PlasmoidItem {
   readonly property string uiPath: {
     return baseUrl.replace(/^file:\/\//, '');
   }
-  readonly property string playIcon: uiPath + "freeze-off.svg"
-  readonly property string stopIcon: uiPath + "freeze-on.svg"
   readonly property string minutes: Plasmoid.configuration.minutes;
   property bool toggleStatus: false
+
+
+  // true = dark theme,
+  // false = light theme
+  readonly property bool isDarkTheme: Kirigami.Theme.backgroundColor.hslLightness < 0.5
+
+  property string playIcon: isDarkTheme ? uiPath + "freeze-off-light.svg" :  uiPath + "freeze-off-dark.svg"
+  property string stopIcon: isDarkTheme ? uiPath + "freeze-on-light.svg" : uiPath + "freeze-on-dark.svg"
 
   Component.onCompleted: {
     executable.execStart();
