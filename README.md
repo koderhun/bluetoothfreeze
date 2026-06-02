@@ -40,4 +40,4 @@ The plugin settings can be configured to specify the desired interval and sound 
 
 ## License
 
-The project is licensed under the [MIT License](LICENSE.md).
+The project is licensed under the [GNU GPL License](LICENSE.md).
