@@ -8,13 +8,13 @@
       }
     ],
     "Category": "Utilities",
+    "Icon": "lines-connector",
     "ServiceTypes": ["Plasma/Applet"],
     "EnabledByDefault": true,
     "Name": "BluetoothFreeze",
     "Description": "Timer for keeping bluetooth on. A quiet sound is played at a specified interval. The default interval is 10 min.",
     "Id": "com.github.koderhun.bluetoothfreeze",
-    "Icon": "/contents/icons/hicolor/symbolic/apps/bluetooth-freeze-symbolic.svg",
-    "Version": 0.7,
+    "Version": 0.8,
     "License": "GPL-3.0-or-later",
     "BugReportUrl": "",
     "Website": ""
